@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-image: url('https://img.freepik.com/free-vector/gradient-breaking-news-background_23-2151142406.jpg?t=st=1742104609~exp=1742108209~hmac=6fcc8cea6bd4fd64ee68a4bc52afbd8667622c98fe203a89a3658543cd28f94d&w=1380'); /* Path to your image */
+    background-size: 100% 100%; /* Cover the entire screen */
+    background-position: center; /* Center the image */
+    background-attachment: fixed; /* Fixed background while scrolling */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.container h1 {
+    color: rgb(193, 226, 229);
+    font-size: 86px;
+    margin-bottom: 20px;
+}
+input {
+    width: 60%;
+    padding: 10px;
+    font-size: 16px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #e0c7c7;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #087cf8;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #ef0c0c;
+}
+
+#newsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Centers news cards */
+    align-items: center; 
+    width: 100%; /* Adjust width for better layout */
+    margin-top: 20px;
+}
+
+.news-card {
+    background: white;
+    padding: 15px;
+    margin: 10px;
+    width: 300px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: left;
+}
+
+.news-card img {
+    width: 40%;
+    border-radius: 5px;
+}
+
+.news-card a {
+    text-decoration: none;
+    color: #007bff;
+}
+
