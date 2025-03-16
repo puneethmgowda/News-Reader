@@ -1,4 +1,4 @@
-const API_KEY = "d5536ac9915448798617c2d3a7e9d7d6";  // Your NewsAPI key
+const API_KEY = "YOUR_NEWSAPI_KEY";  // Your NewsAPI key
 
 async function fetchNews() {
     let topic = document.getElementById("searchInput").value;
